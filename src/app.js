@@ -84,7 +84,7 @@ app.get('/products', (req, res) => {
 app.get('/weather', (req, res) => {
 if(!req.query.address){
         res.send({
-            error: "Adres bilgisini doldurunuz!"
+            error: "Adres bilgisini doldurunuz!!"
         })
         return 
     }
