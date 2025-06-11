@@ -1,0 +1,56 @@
+h1{
+    color: darkslategray;
+    font-size: 40px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    color: darkOliveGreen;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    color: blueviolet;
+    margin-top: 40px;
+    padding: 0 250px;
+    border-top: 1px solid #eeeeee;
+}
+header{
+    margin-bottom: 40px;
+}
+
+header a{
+    color: darkgoldenrod;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.aboutImg{
+    width: 200px;
+    height: 200px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+button{
+    background-color: darkslategray;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
