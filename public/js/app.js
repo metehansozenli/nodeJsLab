@@ -66,7 +66,7 @@ const p3 = document.querySelector('#p3');
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault() 
 
-    fetch('http://localhost:3000/weather?address='+ weatherInput.value).then((response) => {
+    fetch('/weather?address='+ weatherInput.value).then((response) => {
     response.json().then((data) => {
         // console.log(data);
         if (data.error) {

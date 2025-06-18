@@ -12,7 +12,7 @@ const viewsPath = path.join(__dirname, '../temp/views');
 const partialsPath = path.join(__dirname, '../temp/partials');
 
 const app = express();
-
+const port = process.env.PORT || 3000;
 app.set('view engine', 'hbs');
 app.set('views', viewsPath); 
 hbs.registerPartials(partialsPath);
@@ -133,7 +133,7 @@ app.get('*splat', (req, res) => {
     });
 })
 
-app.listen(3000, () => {  
+app.listen(port, () => {  
     console.log('Server is up on port 3000.');
 })
 
