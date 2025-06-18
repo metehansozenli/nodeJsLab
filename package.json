@@ -3,5 +3,9 @@
     "express": "^5.1.0",
     "hbs": "^4.2.0",
     "postman-request": "^2.88.1-postman.42"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   }
 }
